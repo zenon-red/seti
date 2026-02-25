@@ -1,0 +1,15 @@
+{
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "perf": "warn",
+    "pedantic": "off"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-debugger": "error",
+    "no-await-in-loop": "off",
+    "no-new": "off"
+  },
+  "ignorePatterns": ["node_modules/**", "dist/**", "build/**"]
+}
