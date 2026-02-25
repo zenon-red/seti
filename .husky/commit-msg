@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+message_file="$1"
+subject="$(head -n 1 "$message_file")"
+
+if ! printf '%s' "$subject" | grep -Eq '^(feat|fix|docs|style|refactor|test|chore|ci|build|perf)(\([a-z0-9._-]+\))?: .+'; then
+  echo "Invalid commit message format. Use: <type>[scope]: concise description"
+  exit 1
+fi
