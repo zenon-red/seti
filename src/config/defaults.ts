@@ -2,11 +2,16 @@
  * Default configuration for SETI
  */
 
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { SETIConfig, ProviderConfig, MCPServerConfig } from '../types/index.js';
+import { resolveCliVersion } from '../utils/version.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export const SERVER_CONFIG: MCPServerConfig = {
   name: 'seti',
-  version: '1.0.0',
+  version: resolveCliVersion(__dirname),
 };
 
 /** Default provider configurations */
