@@ -1,0 +1,28 @@
+package.json
+  s_4de04b55a65a58::t_2697e1baa56640 3
+skills/seti/references/mcp.md
+  s_4de04b55a65a58::t_5e78a460e36f4f 1-67
+skills/seti/SKILL.md
+  s_4de04b55a65a58::t_fec1d17f380cf1 3,8,10-92
+src/config/defaults.ts
+  s_4de04b55a65a58::t_ab64f31c608f3c 5,10
+  s_4de04b55a65a58::t_03432d253d6b73 6,8,14
+skills/seti/references/cli.md
+  s_4de04b55a65a58::t_33b59f174bd504 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "2223a35b19d02942ce7a4348207661b3f62ae1ba",
+  "prompts": {},
+  "sessions": {
+    "s_4de04b55a65a58": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1e9bed020ffel6Slhg8yBMdtbz",
+        "model": "glm-5.1"
+      },
+      "human_author": "ZŌE <zoe@zenon.red>"
+    }
+  }
+}
