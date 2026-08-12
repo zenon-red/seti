@@ -46,7 +46,7 @@
   "dependencies": {
     "@clack/prompts": "^1.0.1",
     "@modelcontextprotocol/sdk": "^1.27.1",
-    "@toon-format/toon": "^2.1.0",
+    "@toon-format/toon": "^4.1.1",
     "axios": "^1.13.5",
     "unconfig": "^7.5.0",
     "consola": "^3.4.2",
